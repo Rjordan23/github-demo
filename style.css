@@ -5,6 +5,7 @@
     list-style: none;
     font-family: 'Archivo', sans-serif;
     font-size: 16px;
+    border-style: border-box;
 }
 
 a {
@@ -321,9 +322,39 @@ header div:nth-of-type(3) li:nth-last-child(1) {
 
 /* ////// News & Service ////// */
 #news-service {
-    height: 100px;
-    color: #fff;
-    background: red;
+    height: 600px;
+}
+
+#news-left {
+    width: 50%;
+    height: 100%;
+}
+
+#news-header {
+    height: 60px;
+    background: #131313;
+    color: #ffffff;
+}
+
+#news-header ul {
+    text-align: center;
+}
+
+#news-header ul li {
+    display: inline-block;
+    width: 30%;
+    height: 34px;
+    padding: 15px 0 11px 0;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#news-header ul li:hover {
+    cursor: pointer;
+}
+
+#news-header ul li:nth-child(1), #news-header ul li:nth-child(2) {
+    border-right: 2px solid green;;
 }
 
 
@@ -342,6 +373,9 @@ header div:nth-of-type(3) li:nth-last-child(1) {
 
 
 
+#filler {
+    height: 400px;
+}
 
 footer {
     height: 50px;
