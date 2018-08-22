@@ -4,7 +4,6 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Archivo', sans-serif;
-    font-size: 16px;
     border-style: border-box;
 }
 
@@ -25,6 +24,58 @@ button:hover {
     cursor: pointer;
     transition: ease all .4s;
     background-color: #CD3029;
+}
+
+/* ///// Navigation Bar Section ///// */
+/* Upper nav section starts here */
+nav { 
+    padding: 0 80px;
+}
+#departments ul li {
+    display: inline-block;
+    padding: 20px 30px;
+}
+
+#departments ul li:nth-of-type(4) {
+    float: right;
+}
+
+nav span { 
+    color: red;
+}
+
+/* Middle Logo section */
+#mopar-logo {
+    width: 100%;
+    text-align: center;
+}
+
+nav img {
+    width: 60px;
+    margin-left: 200px;
+}
+
+/* Lower nav section starts here */
+#about {
+    width: 100%;
+    padding: 0 30px;
+    padding-bottom: 20px;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#about ul li {
+    display: inline-block;
+}
+
+#about ul:nth-of-type(1) {
+    padding-top: 10px;
+}
+
+#about ul:nth-of-type(1) li {
+    padding: 0 15px;
 }
 
 /* ///////////// */
