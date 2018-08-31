@@ -33,7 +33,7 @@ nav {
 }
 #departments ul li {
     display: inline-block;
-    padding: 20px 30px;
+    padding: 20px 10px;
 }
 
 #departments ul li:nth-of-type(4) {
@@ -46,19 +46,17 @@ nav span {
 
 /* Middle Logo section */
 #mopar-logo {
-    width: 100%;
     text-align: center;
 }
 
 nav img {
-    width: 60px;
-    margin-left: 200px;
+    width: 200px;
 }
 
 /* Lower nav section starts here */
 #about {
     width: 100%;
-    padding: 0 30px;
+    padding: 0 10px;
     padding-bottom: 20px;
     display: inline-flex;
     flex-direction: row;
